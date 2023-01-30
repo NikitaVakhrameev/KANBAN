@@ -1,0 +1,326 @@
+<!DOCTYPE html >
+<html> 
+  <head>
+    <title>My application</title>
+    <head>
+      <meta charset="utf-8"/>
+      <link rel="stylesheet" type="text/css" href="/less/styles.css"/>
+    </head>
+  </head>
+  <body>
+    <header class="header"> 
+      <div class="header__logo"><img class="logo__picture" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/Art.png?raw=true"/>
+        <p class="logo__name">You.Do</p>
+      </div>
+      <form class="form header__form">
+        <input class="form__textarea" type="search" placeholder="Поиск"/>
+      </form>
+      <div class="settings header__settings"><img class="settings__ring" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/a0e13da3dffa0cc994aad7be73476e5003fc30c1/src/pic/header/bell-01.svg"/><img class="settings__elipse settings-elipse-disabled"/><img class="settings__adjustments" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/header_settings.png?raw=true"/><img class="settings__profile" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/Rectangle%205.png?raw=true"/></div>
+    </header>
+    <nav class="nav">
+      <div class="navigation-bar nav__navigation-bar">
+        <div class="navigation-bar__menu">
+          <div class="navigation-bar__name">UI/UX Design</div>
+          <div class="navigation-bar__status">в процессе</div>
+        </div>
+        <button class="navigation-bar__task" type="submit" value="+ Добавить задачу">+ Добавить задачу</button>
+      </div>
+      <div class="participants nav__participants"><img class="participants__icon" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/a1dae5b830f4c621cafaf1742c7c71e860fc0586/src/pic/nav/users-01.svg" alt=""/>
+        <div class="participants__status">8 участников</div>
+      </div>
+      <div class="navigation-menu nav__navigation-menu">
+        <div class="navigation-menu__buttons">
+          <div class="navigation-menu__button"><a class="button__link button__link-focused" href="#" src=""> Доска</a></div>
+          <div class="navigation-menu__button"><a class="button__link button__link-focused" href="#" src=""> Комментарии</a></div>
+          <div class="navigation-menu__button"><a class="button__link button__link-focused" href="#" src=""> Активность</a></div>
+          <div class="navigation-menu__button"><a class="button__link button__link-focused" href="#" src=""> Файлы</a></div>
+        </div>
+        <div class="navigation-menu__view"><img class="view__screen" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/a1dae5b830f4c621cafaf1742c7c71e860fc0586/src/pic/nav/grid-01.svg"/><img class="view__screen" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/a1dae5b830f4c621cafaf1742c7c71e860fc0586/src/pic/nav/list.svg"/></div>
+      </div>
+    </nav>
+    <main class="main">
+      <div class="content main__content">
+        <div class="content__item">Нужно сделать
+          <div class="content__cards-field">
+            <div class="card">
+              <card__options class="card__options-disabled">
+                <div class="card__delete"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Удалить</button>
+                </div>
+                <div class="card__modify"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Редактировать</button>
+                </div>
+              </card__options>
+              <div class="card__task-status">
+                <div class="card__description card__description-planning">Планирование</div>
+                <div class="task-status__options">...</div>
+              </div>
+              <div class="task-status__description">Сделать лендинг на основе существующей дизайн-системы</div>
+              <div class="users">
+                <div class="users__avatar"><img class="user__avatar-first" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%204.png?raw=true"/><img class="user__avatar-second" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%206%20(1).png?raw=true"/><img class="user__avatar-third" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%207.png?raw=true"/><img class="user__avatar-forth" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/Rectangle%205.png?raw=true"/></div>
+                <div class="users__counter">+3</div>
+              </div>
+              <div class="card__date"><img class="date__calendar" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/844a8a05e2782c956d8dffa1ae1417f6ce8b01b8/src/pic/nav/calendar.svg"/>
+                <div class="date__task-open"></div>
+              </div>
+            </div>
+            <div class="card">
+              <card__options class="card__options-disabled">
+                <div class="card__delete"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Удалить</button>
+                </div>
+                <div class="card__modify"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Редактировать</button>
+                </div>
+              </card__options>
+              <div class="card__task-status">
+                <div class="card__description card__description-design">Дизайн система</div>
+                <div class="task-status__options">...</div>
+              </div>
+              <div class="task-status__description">Сделать лендинг на основе существующей дизайн-системы</div>
+              <div class="users">
+                <div class="users__avatar"><img class="user__avatar-first" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%204.png?raw=true"/><img class="user__avatar-second" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%206%20(1).png?raw=true"/><img class="user__avatar-third" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%207.png?raw=true"/><img class="user__avatar-forth" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/Rectangle%205.png?raw=true"/></div>
+                <div class="users__counter">+3</div>
+              </div>
+              <div class="card__date"><img class="date__calendar" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/844a8a05e2782c956d8dffa1ae1417f6ce8b01b8/src/pic/nav/calendar.svg"/>
+                <div class="date__task-open"></div>
+              </div>
+            </div>
+            <div class="card">
+              <card__options class="card__options-disabled">
+                <div class="card__delete"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Удалить</button>
+                </div>
+                <div class="card__modify"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Редактировать</button>
+                </div>
+              </card__options>
+              <div class="card__task-status">
+                <div class="card__description card__description-UX">UX</div>
+                <div class="task-status__options">...</div>
+              </div>
+              <div class="task-status__description">Сделать лендинг на основе существующей дизайн-системы</div>
+              <div class="users">
+                <div class="users__avatar"><img class="user__avatar-first" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%204.png?raw=true"/><img class="user__avatar-second" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%206%20(1).png?raw=true"/><img class="user__avatar-third" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%207.png?raw=true"/><img class="user__avatar-forth" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/Rectangle%205.png?raw=true"/></div>
+                <div class="users__counter">+3</div>
+              </div>
+              <div class="card__date"><img class="date__calendar" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/844a8a05e2782c956d8dffa1ae1417f6ce8b01b8/src/pic/nav/calendar.svg"/>
+                <div class="date__task-open"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__item">В процессе
+          <div class="content__cards-field">
+            <div class="card">
+              <card__options class="card__options-disabled">
+                <div class="card__delete"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Удалить</button>
+                </div>
+                <div class="card__modify"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Редактировать</button>
+                </div>
+              </card__options>
+              <div class="card__task-status">
+                <div class="card__description card__description-planning">Планирование</div>
+                <div class="task-status__options">...</div>
+              </div>
+              <div class="task-status__description">Сделать лендинг на основе существующей дизайн-системы</div>
+              <div class="users">
+                <div class="users__avatar"><img class="user__avatar-first" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%204.png?raw=true"/><img class="user__avatar-second" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%206%20(1).png?raw=true"/><img class="user__avatar-third" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%207.png?raw=true"/><img class="user__avatar-forth" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/Rectangle%205.png?raw=true"/></div>
+                <div class="users__counter">+3</div>
+              </div>
+              <div class="card__date"><img class="date__calendar" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/844a8a05e2782c956d8dffa1ae1417f6ce8b01b8/src/pic/nav/calendar.svg"/>
+                <div class="date__task-open"></div>
+              </div>
+            </div>
+            <div class="card">
+              <card__options class="card__options-disabled">
+                <div class="card__delete"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Удалить</button>
+                </div>
+                <div class="card__modify"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Редактировать</button>
+                </div>
+              </card__options>
+              <div class="card__task-status">
+                <div class="card__description card__description-UI">UI</div>
+                <div class="task-status__options">...</div>
+              </div>
+              <div class="task-status__description">Сделать research</div>
+              <div class="users">
+                <div class="users__avatar"><img class="user__avatar-first" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%204.png?raw=true"/><img class="user__avatar-second" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%206%20(1).png?raw=true"/><img class="user__avatar-third" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%207.png?raw=true"/><img class="user__avatar-forth" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/Rectangle%205.png?raw=true"/></div>
+                <div class="users__counter">+3</div>
+              </div>
+              <div class="card__date"><img class="date__calendar" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/844a8a05e2782c956d8dffa1ae1417f6ce8b01b8/src/pic/nav/calendar.svg"/>
+                <div class="date__task-open"></div>
+              </div>
+            </div>
+            <div class="card">
+              <card__options class="card__options-disabled">
+                <div class="card__delete"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Удалить</button>
+                </div>
+                <div class="card__modify"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Редактировать</button>
+                </div>
+              </card__options>
+              <div class="card__task-status">
+                <div class="card__description card__description-design">Дизайн система</div>
+                <div class="task-status__options">...</div>
+              </div>
+              <div class="task-status__description">Сделать лендинг на основе существующей дизайн-системы</div>
+              <div class="users">
+                <div class="users__avatar"><img class="user__avatar-first" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%204.png?raw=true"/><img class="user__avatar-second" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%206%20(1).png?raw=true"/><img class="user__avatar-third" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%207.png?raw=true"/><img class="user__avatar-forth" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/Rectangle%205.png?raw=true"/></div>
+                <div class="users__counter">+3</div>
+              </div>
+              <div class="card__date"><img class="date__calendar" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/844a8a05e2782c956d8dffa1ae1417f6ce8b01b8/src/pic/nav/calendar.svg"/>
+                <div class="date__task-open"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__item">Ревью
+          <div class="content__cards-field">
+            <div class="card">
+              <card__options class="card__options-disabled">
+                <div class="card__delete"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Удалить</button>
+                </div>
+                <div class="card__modify"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Редактировать</button>
+                </div>
+              </card__options>
+              <div class="card__task-status">
+                <div class="card__description card__description-planning">Планирование</div>
+                <div class="task-status__options">...</div>
+              </div>
+              <div class="task-status__description">Сделать лендинг на основе существующей дизайн-системы</div>
+              <div class="users">
+                <div class="users__avatar"><img class="user__avatar-first" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%204.png?raw=true"/><img class="user__avatar-second" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%206%20(1).png?raw=true"/><img class="user__avatar-third" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%207.png?raw=true"/><img class="user__avatar-forth" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/Rectangle%205.png?raw=true"/></div>
+                <div class="users__counter">+3</div>
+              </div>
+              <div class="card__date"><img class="date__calendar" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/844a8a05e2782c956d8dffa1ae1417f6ce8b01b8/src/pic/nav/calendar.svg"/>
+                <div class="date__task-open"></div>
+              </div>
+            </div>
+            <div class="card">
+              <card__options class="card__options-disabled">
+                <div class="card__delete"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Удалить</button>
+                </div>
+                <div class="card__modify"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Редактировать</button>
+                </div>
+              </card__options>
+              <div class="card__task-status">
+                <div class="card__description card__description-UX">UX</div>
+                <div class="task-status__options">...</div>
+              </div>
+              <div class="task-status__description">Сделать лендинг на основе существующей дизайн-системы</div>
+              <div class="users">
+                <div class="users__avatar"><img class="user__avatar-first" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%204.png?raw=true"/><img class="user__avatar-second" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%206%20(1).png?raw=true"/><img class="user__avatar-third" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%207.png?raw=true"/><img class="user__avatar-forth" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/Rectangle%205.png?raw=true"/></div>
+                <div class="users__counter">+3</div>
+              </div>
+              <div class="card__date"><img class="date__calendar" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/844a8a05e2782c956d8dffa1ae1417f6ce8b01b8/src/pic/nav/calendar.svg"/>
+                <div class="date__task-open"></div>
+              </div>
+            </div>
+            <div class="card">
+              <card__options class="card__options-disabled">
+                <div class="card__delete"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Удалить</button>
+                </div>
+                <div class="card__modify"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Редактировать</button>
+                </div>
+              </card__options>
+              <div class="card__task-status">
+                <div class="card__description card__description-planning">Планирование</div>
+                <div class="task-status__options">...</div>
+              </div>
+              <div class="task-status__description">Сделать лендинг на основе существующей дизайн-системы</div>
+              <div class="users">
+                <div class="users__avatar"><img class="user__avatar-first" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%204.png?raw=true"/><img class="user__avatar-second" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%206%20(1).png?raw=true"/><img class="user__avatar-third" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%207.png?raw=true"/><img class="user__avatar-forth" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/Rectangle%205.png?raw=true"/></div>
+                <div class="users__counter">+3</div>
+              </div>
+              <div class="card__date"><img class="date__calendar" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/844a8a05e2782c956d8dffa1ae1417f6ce8b01b8/src/pic/nav/calendar.svg"/>
+                <div class="date__task-open"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content__item">Сделано
+          <div class="content__cards-field">
+            <div class="card">
+              <card__options class="card__options-disabled">
+                <div class="card__delete"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Удалить</button>
+                </div>
+                <div class="card__modify"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Редактировать</button>
+                </div>
+              </card__options>
+              <div class="card__task-status">
+                <div class="card__description card__description-planning">Планирование</div>
+                <div class="task-status__options">...</div>
+              </div>
+              <div class="task-status__description">Сделать лендинг на основе существующей дизайн-системы</div>
+              <div class="users">
+                <div class="users__avatar"><img class="user__avatar-first" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%204.png?raw=true"/><img class="user__avatar-second" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%206%20(1).png?raw=true"/><img class="user__avatar-third" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%207.png?raw=true"/><img class="user__avatar-forth" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/Rectangle%205.png?raw=true"/></div>
+                <div class="users__counter">+3</div>
+              </div>
+              <div class="card__date"><img class="date__calendar" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/844a8a05e2782c956d8dffa1ae1417f6ce8b01b8/src/pic/nav/calendar.svg"/>
+                <div class="date__task-open"></div>
+              </div>
+            </div>
+            <div class="card">
+              <card__options class="card__options-disabled">
+                <div class="card__delete"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Удалить</button>
+                </div>
+                <div class="card__modify"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Редактировать</button>
+                </div>
+              </card__options>
+              <div class="card__task-status">
+                <div class="card__description card__description-UI">UI</div>
+                <div class="task-status__options">...</div>
+              </div>
+              <div class="task-status__description">Сделать research</div>
+              <div class="users">
+                <div class="users__avatar"><img class="user__avatar-first" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%204.png?raw=true"/><img class="user__avatar-second" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%206%20(1).png?raw=true"/><img class="user__avatar-third" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%207.png?raw=true"/><img class="user__avatar-forth" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/Rectangle%205.png?raw=true"/></div>
+                <div class="users__counter">+3</div>
+              </div>
+              <div class="card__date"><img class="date__calendar" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/844a8a05e2782c956d8dffa1ae1417f6ce8b01b8/src/pic/nav/calendar.svg"/>
+                <div class="date__task-open"></div>
+              </div>
+            </div>
+            <div class="card">
+              <card__options class="card__options-disabled">
+                <div class="card__delete"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Удалить</button>
+                </div>
+                <div class="card__modify"><img class="card__icon" src=""/>
+                  <button class="card__button" type="submit">Редактировать</button>
+                </div>
+              </card__options>
+              <div class="card__task-status">
+                <div class="card__description card__description-planning">Планирование</div>
+                <div class="task-status__options">...</div>
+              </div>
+              <div class="task-status__description">Сделать лендинг на основе существующей дизайн-системы</div>
+              <div class="users">
+                <div class="users__avatar"><img class="user__avatar-first" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%204.png?raw=true"/><img class="user__avatar-second" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%206%20(1).png?raw=true"/><img class="user__avatar-third" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/nav/Rectangle%207.png?raw=true"/><img class="user__avatar-forth" src="https://github.com/NikitaVakhrameev/gulp-template/blob/main/src/pic/header/Rectangle%205.png?raw=true"/></div>
+                <div class="users__counter">+3</div>
+              </div>
+              <div class="card__date"><img class="date__calendar" src="https://raw.githubusercontent.com/NikitaVakhrameev/gulp-template/844a8a05e2782c956d8dffa1ae1417f6ce8b01b8/src/pic/nav/calendar.svg"/>
+                <div class="date__task-open"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
